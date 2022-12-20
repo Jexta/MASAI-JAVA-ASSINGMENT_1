@@ -1,0 +1,52 @@
+*************************************MASAI CODE**************************************************
+Java Assignment - 1 [ Introduction to Java: Variables & Data 
+
+1)REPORT CARD CODE 
+
+
+class Var
+{
+    public static void main(String[] args)
+    {
+      String name = "Chaitanya Khairnar";
+      String school = "Masai School";
+      char grade = 'A';
+      char section ='A';
+      int rollNo = 100;
+      String Math = "Math";
+      String Science = "Science";
+      String English = "English";
+
+      System.out.println("\n \t   Report Card");
+      System.out.println("*------------------------------------*");
+      System.out.println(" |Name:-"+name+"|");
+      System.out.println(" |Scholl:-"+school+"\t  |");
+      System.out.println(" |Roll No:-"+rollNo+"\t\t\t  |");
+      System.out.println(" |Section:-"+section+"\t\t\t  |");
+      System.out.println("*------------------------------------*");
+      System.out.println(" |Subject"+"\t"+" |Marks"+""+"|Grades|");
+      System.out.println(" |"+Math+"\t     |"+"45/50"+  "|A"+"\t  |");
+      System.out.println(" |"+Science+"\t |"+"35/50"+  "|B"+"\t  |");
+      System.out.println(" |"+English+"\t |"+"49/50"+  "|A+"+"\t  |");
+      System.out.println("*------------------------------------*");
+      
+    }
+}
+
+
+
+
+----------------------------------------------------------------------------------------------
+2) NAME AND AGE PRINTING:-
+
+class Age{
+    public static void main(String[] args)
+    {
+      String name = "Chaitanya";
+      int age = 22;
+
+      System.out.println(age+"\n"+name);
+      
+    }
+    
+}
